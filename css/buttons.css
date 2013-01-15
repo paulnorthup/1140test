@@ -1,0 +1,75 @@
+/* The Button -------*/
+.button, .button:visited{
+background: #222 url(../images/button-overlay.png) repeat-x;
+display: inline-block;
+padding: 5px 10px 6px;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px #999;
+-webkit-box-shadow: 0 1px 3px #999;
+text-shadow: 0 -1px 1px #222;
+border-bottom: 1px solid #222;
+position: relative;
+cursor: pointer;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+.button:active {
+	top: 1px;
+}
+/* Sizes ---------- */
+.small.button {
+padding-top: 6px;
+font-size: 12px;
+}
+.medium.button {
+font-size: 18px;
+}
+.large.button {
+font-size: 24px;
+padding: 8px 14px 9px;
+}
+ 
+/* Colors ---------- */
+.lightblue.button {
+background-color: #bad8e7;
+color: #333;
+}
+.lightblue.button:hover {
+background-color: #abc6d4;
+}
+
+.darkblue.button {
+background-color: #00547f;
+}
+.darkblue.button:hover {
+background-color: #00476b;
+}
+
+.red.button {
+background-color: #9e2d04;
+}
+.red.button:hover {
+background-color: #8a2804;
+}
+
+.grey.button {
+background-color: #333;
+}
+.grey.button:hover {
+background-color: #111;
+}
+
+.white.button {
+background-color: #eee;
+color: #333;
+}
+.white.button:hover {
+background-color: #ccc;
+}

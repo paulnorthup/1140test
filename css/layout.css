@@ -1,0 +1,92 @@
+/* Layout for desktop version */
+
+body {
+	background: #d1eaf6;
+	background: -moz-linear-gradient(top, #ABDCF2 0%, #fff 70%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ABDCF2), color-stop(70%,#fff)); /* webkit */
+}
+h1 {
+	text-shadow: 0 1px 1px #eee;
+}
+h1.accentWhite {
+	text-shadow: 0 1px 1px #111;
+}
+a {
+	color: #00547f;
+}
+
+
+.accentBlue{
+	color: #00547f !important;
+}
+.accentRed {
+	color: #9e2d04 !important;
+}
+.accentGold {
+	color: #fcbc31 !important;
+}
+.accentWhite {
+	color: #fff !important;
+}
+
+
+.topnav{
+	padding:20px 0;
+	background: url('../images/htop.png') no-repeat top center #00547f;
+	border-bottom: 1px solid #333;
+}
+.topnav a {
+	color: #bad8e7;
+}
+.intro {
+	background: url('../images/htop.png') no-repeat top center;
+	padding:80px 0 40px;
+	border-top: 1px solid #eee;
+}
+.maincontent {
+	padding:40px 0 80px;
+	border-bottom: 1px solid #fff;
+}
+.invert {
+	background: url('../images/hbottom.png') no-repeat bottom center #00547f;
+	color: #d1eaf6;
+	border-bottom: 1px solid #333;
+	border-top: 1px solid #333;
+	padding:80px 0;
+}
+.invert h1 {
+	color: #bad8e7;
+}
+.invert h2 {
+	color:  #fff;
+}
+.footer {
+	padding: 80px 0 40px;
+}
+
+
+/* Layout for mobile version */
+
+@media handheld, only screen and (max-width: 767px) {
+
+.examplecontainer {
+
+body {
+
+}
+
+}
+
+
+/* Provide higher res assets for iPhone 4 */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/* An example of how to override an image with one twice the size for iPhone 4. Specify the original pixel size with background-size.
+.download {
+background: url(../img/downarrow@2x.png) no-repeat;
+background-size: 27px 28px;
+}
+*/
+
+}
